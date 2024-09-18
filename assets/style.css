@@ -10,6 +10,14 @@ span, div, form, input, nav, header {
     font-family: "textobanner";
     src: url("fonts/Guarantee.otf");
 }
+@font-face {
+    font-family: "cursiva";
+    src: url("fonts/Montez-0jZz.ttf");
+}
+@font-face {
+    font-family: "bold";
+    src: url("fonts/KagenoBold-V4816.otf");
+}
 body{
     background-color: #334B35;
 }
@@ -134,7 +142,7 @@ body{
 .titulo{
     font-size: 30px;
     margin-bottom: 25px;
-    
+    font-family: "bold";
 }
 .frase{
     text-align: center;
@@ -162,7 +170,7 @@ img {
     width: 50%;
     margin-right: 150px;
     margin-top: 130px;
-    color:white
+    color:white;
 }
 .nome{
     color: white;
@@ -181,7 +189,7 @@ img {
     display: flex;
     color: white;
     height: 590px;
-   margin-top: 7%;
+   
 }
 .ImgemReflorestamento{
     width: 100%;
@@ -235,9 +243,7 @@ img {
     display: flex;
 }
 .iconeOrganic {
-    position: absolute; 
-    top: 5%;
-    left: 46.6%; 
+    
     z-index: 2; 
 }
 .h1LadoDireito{
