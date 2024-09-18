@@ -192,7 +192,6 @@ img {
 .DivContato {
     background-color: #334B35;
     width: 100%;
-    height:400px;
 }
 
 .containerContato {
@@ -225,23 +224,24 @@ img {
 
 }
 .IconeEtexto1{
-    margin-top: 45px;
-    margin-left: 3%;
+    margin-top: 70px;
+    margin-left: 5%;
     display: flex;
 }
 .IconeEtexto2{
     margin-top: 45px;
-    margin-left: 3%;
+    margin-left: 5%;
     display: flex;
 }
 .iconeOrganic {
-    position: absolute; 
+    position: relative; 
     top: 5%;
-    left: 46.6%; 
+    left: -49.9%; 
     z-index: 2; 
 }
 .h1LadoDireito{
-    margin-left: 10%;
+    font-size: 40px;
+    margin-left: 15%;
     margin-top: 120px;
 }
 .texto1direito{
@@ -252,7 +252,7 @@ img {
 }
 .DivContato{
     display: flex;
-    height: 500px;
+    height: 590px;
 }
 .containerContato1{
     width: 50%;
@@ -271,8 +271,8 @@ img {
     height: 20px;
     color: white;
     border-radius: 5px;
-    margin-top: 17px;
-    height: 45px;
+    margin-top: 27px;
+    height: 53px;
     margin-left: 5%;
 
 }
@@ -282,8 +282,8 @@ img {
     height: 20px;
     color: white;
     border-radius: 5px;
-    margin-top: 17px;
-    height: 105px;
+    margin-top: 27px;
+    height: 135px;
     margin-left: 5%;
 }
 .Botao{
@@ -291,9 +291,9 @@ img {
     width: 20%;
     background-color: #F7C35F;
     height: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
-    margin-top: 17px;
+    margin-top: 40px;
     height: 45px;
     border: none;
 }
@@ -303,7 +303,7 @@ img {
 
 }
 .DivImgEtexto{
-    margin-left: 33%;
+    margin-left: 28%;
     display: flex;
     align-items: center;
 }
