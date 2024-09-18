@@ -1,0 +1,309 @@
+html, body, section, h1, h2,
+span, div, form, input, nav, header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+@font-face {
+    font-family: "textobanner";
+    src: url("fonts/Guarantee.otf");
+}
+body{
+    background-color: #334B35;
+}
+.header-logo img{
+    width: 20%;
+    height: 150px;
+    margin-left: 2%;
+}
+
+.header-banner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.header-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.banner-text {
+    color: white;
+    margin-left: 9%;
+}
+.container-imagem{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 500px;
+    margin: 100px;
+}
+
+.textobanner2{
+    font-family: "textobanner";
+    font-size: 60px;
+    color: #F7C35F;
+    margin-top: 7%;
+}
+.textobanner3{
+    font-family: "textobanner";
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 1%;
+}
+.textobanner4{
+    position: absolute;
+    margin-top: 3.5%;
+    width: 40%;
+    color: #aaa8a8;
+}
+.btn{
+    margin-top: 12%;
+    border-radius: 15px;
+    background-color: #F7C35F;
+    height: 60px;
+    width: 10%;
+}
+.icon-flor{
+    display: flex;
+}
+.flor{
+    margin-top: 5%;
+    
+}
+.elemento3 {
+    background-color: #263C28;
+    width: 70%;
+    height: 368px;
+    z-index: -1;
+   border-radius: 5px;
+}
+.elemento4 {
+    width: 68%;
+    height: 400px;
+    margin-top: 90px;
+    z-index: 3;
+    margin-left: -400px; /* Ajuste a margem para criar sobreposição */
+}
+.elemento5 {
+    width: 45%;
+    height: 80px;
+    background-color: #6D8C54;
+    margin-top: 480px;
+    z-index: 4;
+    margin-left: -300px; /* Ajuste a margem para criar sobreposição */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.elemento5 img{
+    width: 15%;
+    height: 50px;
+    margin-left: 30px;
+}
+.elemento5 span{
+    color: white;
+    display: grid;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.span2{
+    font-size: 14px;
+  
+}
+.container-geral{
+    display: flex;
+}
+.container-text{
+    display: inline-block; 
+    padding: 10px;
+    font-size: 18px;
+    width: 40%;
+    height: 500px;
+    margin-right: 100px;
+    margin-top: 150px;
+    position: relative;
+    color: white;
+}
+.titulo{
+    font-size: 30px;
+    margin-bottom: 25px;
+    
+}
+.frase{
+    text-align: center;
+    margin-top: 55px;
+    font-size: 25px;
+    color: white;
+}
+figure {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 30px auto;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-fala{
+    display: flex;
+    margin-top: 20px;
+}
+.caixa-fala{
+    width: 50%;
+    margin-right: 150px;
+    margin-top: 130px;
+    color:white
+}
+.nome{
+    color: white;
+    margin-left: 500px;
+}
+.nome2{
+    color: rgb(218, 217, 217);
+    margin-left: 520px;
+}
+.emprego{
+    display: grid;
+}
+.DivReflorestamento {
+    background-color: #6D8C54;
+    width: 100%;
+    display: flex;
+    color: white;
+    height: 590px;
+   margin-top: 7%;
+}
+.ImgemReflorestamento{
+    width: 100%;
+    height: 100%;
+}
+
+
+.DivContato {
+    background-color: #334B35;
+    width: 100%;
+    height:400px;
+}
+
+.containerContato {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.DivMensagem{
+    background-image:url("./img/Fundo2.png");
+    width: 100%;
+    height: 200px;
+    
+}
+
+.DivFinal {
+    background-color: #334B35;
+    width: 100%;
+    height:330px;
+    display: flex;
+}
+.LadoDireito{
+    width: 50%;
+    z-index: 1;
+  
+}
+.LadoEsquerdo{
+    width: 50%;
+    z-index: 1;
+
+}
+.IconeEtexto1{
+    margin-top: 45px;
+    margin-left: 3%;
+    display: flex;
+}
+.IconeEtexto2{
+    margin-top: 45px;
+    margin-left: 3%;
+    display: flex;
+}
+.iconeOrganic {
+    position: absolute; 
+    top: 5%;
+    left: 46.6%; 
+    z-index: 2; 
+}
+.h1LadoDireito{
+    margin-left: 10%;
+    margin-top: 120px;
+}
+.texto1direito{
+    margin-left: 3%;
+}
+.texto2direito{
+    margin-left: 3%;
+}
+.DivContato{
+    display: flex;
+    height: 500px;
+}
+.containerContato1{
+    width: 50%;
+    color: white;
+ 
+}
+.containerContato2{
+    width: 50%;
+    margin-top: 45px;
+    
+}
+.input1{
+    
+    width: 75%;
+    background-color: #263C28;
+    height: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 17px;
+    height: 45px;
+    margin-left: 5%;
+
+}
+.input2{
+    width: 75%;
+    background-color: #263C28;
+    height: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 17px;
+    height: 105px;
+    margin-left: 5%;
+}
+.Botao{
+    margin-left: 5%;
+    width: 20%;
+    background-color: #F7C35F;
+    height: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 17px;
+    height: 45px;
+    border: none;
+}
+.DivMensagem{
+    display: flex;
+    align-items: center;
+
+}
+.DivImgEtexto{
+    margin-left: 33%;
+    display: flex;
+    align-items: center;
+}
