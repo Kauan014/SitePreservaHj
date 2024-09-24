@@ -135,19 +135,18 @@ body{
     display: flex;
 }
 .container-text{
-    display: inline-block; 
+
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
     width: 40%;
     height: 500px;
     margin-right: 100px;
     margin-top: 150px;
-    position: relative;
     color: white;
 }
 .titulo{
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     
 }
 .frase{
@@ -175,18 +174,18 @@ img {
     
 }
 .caixa-fala{
-    width: 50%;
+    width: 40%;
     margin-right: 150px;
     margin-top: 130px;
     color:white;
 }
 .nome{
     color: white;
-    margin-left: 250px;
+    margin-left: 320px;
 }
 .nome2{
     color: rgb(218, 217, 217);
-    margin-left: 270px;
+    margin-left: 338px;
 }
 .emprego{
     display: grid;
